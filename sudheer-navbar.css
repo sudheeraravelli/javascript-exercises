@@ -1,0 +1,60 @@
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+.navbar{
+	background-color: #222222;
+	height: 50px;
+	border-radius: 8px;
+	/*color: white;*/
+}
+.logo a{
+	/*height: 8px;*/
+	text-decoration: none;
+	color: white;
+	padding: 15px 20px;
+	float: left;
+}
+.navbar-list{
+	width: 50%;
+	float:left;
+}
+
+.navbar-list ul li{
+	list-style :none;
+	display: inline-block;
+}	
+
+
+.navbar-list ul li a{
+	color: white;
+	padding:  0 15px;
+	text-decoration: none;
+}
+.navbar-list ul li a:hover{
+	color: #222222;
+	background-color: white;
+	padding: 25px 13px;
+}
+.navbar-login{
+	float:right;
+}
+.navbar-login ul li{
+	list-style:  none;
+	display: inline-block;
+	/*padding-top: 0px;*/
+}
+.navbar-login ul li a{
+	color: white;
+	padding:  0 15px;
+	text-decoration: none;
+}
+.navbar-login ul li a:hover{
+	color: red;
+	/*padding: 25px 15px;*/
+}
+
+.navbar-login ul li a i{
+	padding:0 5px;
+}

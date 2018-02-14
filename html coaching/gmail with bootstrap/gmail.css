@@ -1,0 +1,18 @@
+<style type="text/css">
+    .navbar-header{
+    	width:100%;
+    	background-color:blue;
+    	height:100px;
+    }
+    .navbar-brand{
+    	color:red;
+    	float:left;
+    	margin:0px;
+    	padding-left:90px;
+    }
+    .button{
+    	float:right;
+    	color:blue;
+    }
+
+    </style>
