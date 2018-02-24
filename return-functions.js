@@ -23,3 +23,7 @@ function prime(x){
 	}
 	return x + " is a prime number";
 }
+function kebabTosnake(str){
+	var newStr = str.replace(/ - /g, "_");
+	return newStr;
+}
